@@ -2,12 +2,12 @@ const express = require('express');
 const router = express.Router();
 
 router.get('/', (req, res) => {
-    res.render('index.html', {title:'Apofis Skate'});
+    res.render('index', {title:'Apofis Skate'});
     
 });
 
 router.get('/contact', (req, res) => {
-    res.render('contact.html', {title:'Contact Page'});
+    res.render('contact', {title:'Contact Page'});
     
 });
 
